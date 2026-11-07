@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Star Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="container">
+
+
+        <header class="header">
+            <h1>⭐ Super Star Task Manager</h1>
+
+            <div class="header-buttons">
+                <button class="login-btn">Login</button>
+                <button class="logout-btn">Logout</button>
+            </div>
+        </header>
+
+
+        <section class="date-section">
+
+            <div class="date-box">
+                <label for="date">Date</label>
+                <input type="date" id="date">
+            </div>
+
+            <div class="calendar-box">
+                <label for="calendar">Calendar</label>
+                <input type="month" id="calendar">
+            </div>
+
+        </section>
+
+        
+        <section class="search-section">
+
+            <input
+                type="text"
+                placeholder="Search task..."
+                id="search"
+            >
+
+            <button class="search-btn">Search</button>
+
+        </section>
+
+        
+        <section class="tasks-section">
+
+            <div class="tasks-header">
+                <h2>Today's Tasks</h2>
+                <span class="task-count">0 Tasks</span>
+            </div>
+
+            <div class="tasks-box">
+
+                <div class="task-item">
+                    <input type="checkbox">
+                    <span>Complete HTML Assignment</span>
+                </div>
+
+                <div class="task-item">
+                    <input type="checkbox">
+                    <span>Practice CSS</span>
+                </div>
+
+                <div class="task-item">
+                    <input type="checkbox">
+                    <span>Learn React JS</span>
+                </div>
+
+            </div>
+
+        </section>
+
+    
+        <section class="delete-section">
+
+            <h2>Delete by Name</h2>
+
+            <div class="delete-box">
+                <input
+                    type="text"
+                    placeholder="Enter task name..."
+                    id="deleteTask"
+                >
+
+                <button class="delete-btn">Delete Task</button>
+            </div>
+
+        </section>
+
+        
+        <footer>
+            <p>© 2026 Super Star Task Manager</p>
+            <p>Manage Your Tasks, Achieve Your Goals ⭐</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
